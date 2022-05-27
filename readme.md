@@ -4,7 +4,7 @@
 These are very simple demo applications to demonstrate the basic functionality of [EF Core](https://docs.microsoft.com/en-us/ef/core/) in simple console applications.
 
 Requirements:
-- .NET Core SDK version 5.0.103 or later, available [here](https://dotnet.microsoft.com/download).
+- .NET Core SDK version 6.0.300 or later, available [here](https://dotnet.microsoft.com/download).
 - LocalDB DB instance available at the host machine at `(localDB)\MSSQLLocalDB`. LocalDB is installed by default for [Visual Studio](https://visualstudio.microsoft.com/downloads/). If you want to use another database, you need to find and change the appropriate provider from the one used here, which is available from the [Microsoft.EntityFrameWorkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/) NuGet package and change the corresponding configurations and connection string.
 
 Running the projects:

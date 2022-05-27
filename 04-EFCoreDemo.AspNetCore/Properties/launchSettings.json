@@ -8,17 +8,17 @@
     }
   },
   "profiles": {
-    "IIS Express": {
-      "commandName": "IISExpress",
+    "_04_EFCoreDemo.AspNetCore": {
+      "commandName": "Project",
       "launchBrowser": true,
+      "applicationUrl": "http://localhost:5005",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "_04_EFCoreDemo.AspNetCore": {
-      "commandName": "Project",
+    "IIS Express": {
+      "commandName": "IISExpress",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
